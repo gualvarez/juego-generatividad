@@ -55,17 +55,20 @@ button {
     color: white;
     padding: 10px 20px;
     margin-left:5px;
+    margin-top:auto;
     text-align: center;
     text-decoration: none;
     display: inline-block;
-    font-size: 20px;
     float:left;
+    font-size: 20px;
     font-family: Roboto;
     border-radius: 4px;
 }
-button:focus-within{
-   background-color: rgb(65, 184, 131); 
+.selected {
+    color: white;
+    background:rgb(65, 184, 131);
 }
+
 .base-timer__label {
   position: absolute;
   width: 300px;
